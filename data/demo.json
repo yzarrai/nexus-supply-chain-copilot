@@ -1,0 +1,629 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-09-21",
+  "warehouse": "Surabaya demo DC",
+  "currency": "IDR",
+  "budget_idr": 5000000,
+  "review_days": 7,
+  "safety_days": 3,
+  "products": [
+    {
+      "sku": "AMX-500",
+      "name": "Amoxicillin 500 mg \u00b7 demo",
+      "unit": "box",
+      "storage": "ambient",
+      "priority": 1,
+      "min_remaining_days": 90,
+      "max_stock_units": 2000
+    },
+    {
+      "sku": "PAR-500",
+      "name": "Paracetamol 500 mg \u00b7 demo",
+      "unit": "box",
+      "storage": "ambient",
+      "priority": 2,
+      "min_remaining_days": 90,
+      "max_stock_units": 3000
+    },
+    {
+      "sku": "VAX-01",
+      "name": "Vaccine \u00b7 out of scope",
+      "unit": "vial",
+      "storage": "cold",
+      "priority": 1,
+      "min_remaining_days": 90,
+      "max_stock_units": 1000
+    }
+  ],
+  "lots": [
+    {
+      "lot_id": "AMX-A",
+      "sku": "AMX-500",
+      "quantity": 100,
+      "reserved": 20,
+      "expiry": "2027-09-21",
+      "status": "released"
+    },
+    {
+      "lot_id": "AMX-NEAR",
+      "sku": "AMX-500",
+      "quantity": 120,
+      "reserved": 0,
+      "expiry": "2026-12-21",
+      "status": "released"
+    },
+    {
+      "lot_id": "AMX-Q",
+      "sku": "AMX-500",
+      "quantity": 200,
+      "reserved": 0,
+      "expiry": "2027-10-26",
+      "status": "quarantine"
+    },
+    {
+      "lot_id": "PAR-A",
+      "sku": "PAR-500",
+      "quantity": 900,
+      "reserved": 0,
+      "expiry": "2027-09-21",
+      "status": "released"
+    }
+  ],
+  "demand": [
+    {
+      "date": "2026-08-24",
+      "sku": "AMX-500",
+      "units": 20,
+      "stockout": false
+    },
+    {
+      "date": "2026-08-25",
+      "sku": "AMX-500",
+      "units": 20,
+      "stockout": false
+    },
+    {
+      "date": "2026-08-26",
+      "sku": "AMX-500",
+      "units": 20,
+      "stockout": false
+    },
+    {
+      "date": "2026-08-27",
+      "sku": "AMX-500",
+      "units": 20,
+      "stockout": false
+    },
+    {
+      "date": "2026-08-28",
+      "sku": "AMX-500",
+      "units": 20,
+      "stockout": false
+    },
+    {
+      "date": "2026-08-29",
+      "sku": "AMX-500",
+      "units": 20,
+      "stockout": false
+    },
+    {
+      "date": "2026-08-30",
+      "sku": "AMX-500",
+      "units": 20,
+      "stockout": false
+    },
+    {
+      "date": "2026-08-31",
+      "sku": "AMX-500",
+      "units": 20,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-01",
+      "sku": "AMX-500",
+      "units": 20,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-02",
+      "sku": "AMX-500",
+      "units": 20,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-03",
+      "sku": "AMX-500",
+      "units": 20,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-04",
+      "sku": "AMX-500",
+      "units": 20,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-05",
+      "sku": "AMX-500",
+      "units": 20,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-06",
+      "sku": "AMX-500",
+      "units": 20,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-07",
+      "sku": "AMX-500",
+      "units": 20,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-08",
+      "sku": "AMX-500",
+      "units": 20,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-09",
+      "sku": "AMX-500",
+      "units": 20,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-10",
+      "sku": "AMX-500",
+      "units": 20,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-11",
+      "sku": "AMX-500",
+      "units": 20,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-12",
+      "sku": "AMX-500",
+      "units": 20,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-13",
+      "sku": "AMX-500",
+      "units": 20,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-14",
+      "sku": "AMX-500",
+      "units": 20,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-15",
+      "sku": "AMX-500",
+      "units": 20,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-16",
+      "sku": "AMX-500",
+      "units": 20,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-17",
+      "sku": "AMX-500",
+      "units": 20,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-18",
+      "sku": "AMX-500",
+      "units": 20,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-19",
+      "sku": "AMX-500",
+      "units": 20,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-20",
+      "sku": "AMX-500",
+      "units": 20,
+      "stockout": false
+    },
+    {
+      "date": "2026-08-24",
+      "sku": "PAR-500",
+      "units": 30,
+      "stockout": false
+    },
+    {
+      "date": "2026-08-25",
+      "sku": "PAR-500",
+      "units": 30,
+      "stockout": false
+    },
+    {
+      "date": "2026-08-26",
+      "sku": "PAR-500",
+      "units": 30,
+      "stockout": false
+    },
+    {
+      "date": "2026-08-27",
+      "sku": "PAR-500",
+      "units": 30,
+      "stockout": false
+    },
+    {
+      "date": "2026-08-28",
+      "sku": "PAR-500",
+      "units": 30,
+      "stockout": false
+    },
+    {
+      "date": "2026-08-29",
+      "sku": "PAR-500",
+      "units": 30,
+      "stockout": false
+    },
+    {
+      "date": "2026-08-30",
+      "sku": "PAR-500",
+      "units": 30,
+      "stockout": false
+    },
+    {
+      "date": "2026-08-31",
+      "sku": "PAR-500",
+      "units": 30,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-01",
+      "sku": "PAR-500",
+      "units": 30,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-02",
+      "sku": "PAR-500",
+      "units": 30,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-03",
+      "sku": "PAR-500",
+      "units": 30,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-04",
+      "sku": "PAR-500",
+      "units": 30,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-05",
+      "sku": "PAR-500",
+      "units": 30,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-06",
+      "sku": "PAR-500",
+      "units": 30,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-07",
+      "sku": "PAR-500",
+      "units": 30,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-08",
+      "sku": "PAR-500",
+      "units": 30,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-09",
+      "sku": "PAR-500",
+      "units": 30,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-10",
+      "sku": "PAR-500",
+      "units": 30,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-11",
+      "sku": "PAR-500",
+      "units": 30,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-12",
+      "sku": "PAR-500",
+      "units": 30,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-13",
+      "sku": "PAR-500",
+      "units": 30,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-14",
+      "sku": "PAR-500",
+      "units": 30,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-15",
+      "sku": "PAR-500",
+      "units": 30,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-16",
+      "sku": "PAR-500",
+      "units": 30,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-17",
+      "sku": "PAR-500",
+      "units": 30,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-18",
+      "sku": "PAR-500",
+      "units": 30,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-19",
+      "sku": "PAR-500",
+      "units": 30,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-20",
+      "sku": "PAR-500",
+      "units": 30,
+      "stockout": false
+    },
+    {
+      "date": "2026-08-24",
+      "sku": "VAX-01",
+      "units": 5,
+      "stockout": false
+    },
+    {
+      "date": "2026-08-25",
+      "sku": "VAX-01",
+      "units": 5,
+      "stockout": false
+    },
+    {
+      "date": "2026-08-26",
+      "sku": "VAX-01",
+      "units": 5,
+      "stockout": false
+    },
+    {
+      "date": "2026-08-27",
+      "sku": "VAX-01",
+      "units": 5,
+      "stockout": false
+    },
+    {
+      "date": "2026-08-28",
+      "sku": "VAX-01",
+      "units": 5,
+      "stockout": false
+    },
+    {
+      "date": "2026-08-29",
+      "sku": "VAX-01",
+      "units": 5,
+      "stockout": false
+    },
+    {
+      "date": "2026-08-30",
+      "sku": "VAX-01",
+      "units": 5,
+      "stockout": false
+    },
+    {
+      "date": "2026-08-31",
+      "sku": "VAX-01",
+      "units": 5,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-01",
+      "sku": "VAX-01",
+      "units": 5,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-02",
+      "sku": "VAX-01",
+      "units": 5,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-03",
+      "sku": "VAX-01",
+      "units": 5,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-04",
+      "sku": "VAX-01",
+      "units": 5,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-05",
+      "sku": "VAX-01",
+      "units": 5,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-06",
+      "sku": "VAX-01",
+      "units": 5,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-07",
+      "sku": "VAX-01",
+      "units": 5,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-08",
+      "sku": "VAX-01",
+      "units": 5,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-09",
+      "sku": "VAX-01",
+      "units": 5,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-10",
+      "sku": "VAX-01",
+      "units": 5,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-11",
+      "sku": "VAX-01",
+      "units": 5,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-12",
+      "sku": "VAX-01",
+      "units": 5,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-13",
+      "sku": "VAX-01",
+      "units": 5,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-14",
+      "sku": "VAX-01",
+      "units": 5,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-15",
+      "sku": "VAX-01",
+      "units": 5,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-16",
+      "sku": "VAX-01",
+      "units": 5,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-17",
+      "sku": "VAX-01",
+      "units": 5,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-18",
+      "sku": "VAX-01",
+      "units": 5,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-19",
+      "sku": "VAX-01",
+      "units": 5,
+      "stockout": false
+    },
+    {
+      "date": "2026-09-20",
+      "sku": "VAX-01",
+      "units": 5,
+      "stockout": false
+    }
+  ],
+  "offers": [
+    {
+      "offer_id": "AMX-STANDARD",
+      "sku": "AMX-500",
+      "supplier": "Supplier A \u00b7 standard",
+      "approved": true,
+      "lead_days": 7,
+      "pack_size": 10,
+      "moq": 50,
+      "unit_cost_idr": 15000,
+      "capacity_units": 1000,
+      "shelf_life_days": 365,
+      "valid_until": "2026-10-21"
+    },
+    {
+      "offer_id": "AMX-FAST",
+      "sku": "AMX-500",
+      "supplier": "Supplier B \u00b7 fast",
+      "approved": true,
+      "lead_days": 3,
+      "pack_size": 10,
+      "moq": 50,
+      "unit_cost_idr": 16500,
+      "capacity_units": 1000,
+      "shelf_life_days": 365,
+      "valid_until": "2026-10-21"
+    },
+    {
+      "offer_id": "PAR-STANDARD",
+      "sku": "PAR-500",
+      "supplier": "Supplier A \u00b7 standard",
+      "approved": true,
+      "lead_days": 5,
+      "pack_size": 20,
+      "moq": 100,
+      "unit_cost_idr": 8000,
+      "capacity_units": 2000,
+      "shelf_life_days": 365,
+      "valid_until": "2026-10-21"
+    }
+  ],
+  "inbound": [
+    {
+      "po_line_id": "PO-001-1",
+      "sku": "AMX-500",
+      "quantity": 40,
+      "arrival": "2026-09-25",
+      "expiry": "2027-09-21",
+      "status": "confirmed"
+    }
+  ]
+}

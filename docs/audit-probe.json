@@ -1,0 +1,8 @@
+{
+  "file": "procure-rag\\src\\contract_intel\\generation\\numeric_grounding.py",
+  "source": "Payment is due within 60 days.",
+  "claim": "Payment is due within 60 years.",
+  "returned": null,
+  "expected": "nonempty grounding error",
+  "finding": "Wrong unit accepted"
+}

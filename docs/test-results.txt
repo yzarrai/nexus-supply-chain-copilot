@@ -1,0 +1,56 @@
+test_budget_is_hard_limit (test_engine.EngineTests.test_budget_is_hard_limit) ... ok
+test_censored_demand_blocked (test_engine.EngineTests.test_censored_demand_blocked) ... ok
+test_cold_product_blocked (test_engine.EngineTests.test_cold_product_blocked) ... ok
+test_expired_lots_do_not_add_available_stock (test_engine.EngineTests.test_expired_lots_do_not_add_available_stock) ... ok
+test_expiry_exclusive_boundary (test_engine.EngineTests.test_expiry_exclusive_boundary) ... ok
+test_future_demand_rejected (test_engine.EngineTests.test_future_demand_rejected) ... ok
+test_high_stock_does_not_force_moq (test_engine.EngineTests.test_high_stock_does_not_force_moq) ... ok
+test_known_order_and_cost (test_engine.EngineTests.test_known_order_and_cost) ... ok
+test_late_receipt_cannot_erase_earlier_shortage (test_engine.EngineTests.test_late_receipt_cannot_erase_earlier_shortage) ... ok
+test_missing_and_duplicate_demand_rejected (test_engine.EngineTests.test_missing_and_duplicate_demand_rejected) ... ok
+test_moq_and_pack_round_up (test_engine.EngineTests.test_moq_and_pack_round_up) ... ok
+test_nan_boolean_negative_and_unknown_field_rejected (test_engine.EngineTests.test_nan_boolean_negative_and_unknown_field_rejected) ... ok
+test_near_expiry_consumed_first (test_engine.EngineTests.test_near_expiry_consumed_first) ... ok
+test_no_input_mutation_and_determinism (test_engine.EngineTests.test_no_input_mutation_and_determinism) ... ok
+test_no_suppliers (test_engine.EngineTests.test_no_suppliers) ... ok
+test_overdue_inbound_rejected (test_engine.EngineTests.test_overdue_inbound_rejected) ... ok
+test_reserved_and_quarantine_are_unavailable (test_engine.EngineTests.test_reserved_and_quarantine_are_unavailable) ... ok
+test_shared_budget_not_per_sku (test_engine.EngineTests.test_shared_budget_not_per_sku) ... ok
+test_stock_cap (test_engine.EngineTests.test_stock_cap) ... ok
+test_supplier_eligibility_capacity_and_shelf_life (test_engine.EngineTests.test_supplier_eligibility_capacity_and_shelf_life) ... ok
+test_suppliers_are_sized_to_same_comparison_horizon (test_engine.EngineTests.test_suppliers_are_sized_to_same_comparison_horizon) ... ok
+test_unconfirmed_receipts_ignored (test_engine.EngineTests.test_unconfirmed_receipts_ignored) ... ok
+test_unknown_sku_and_reserved_overflow (test_engine.EngineTests.test_unknown_sku_and_reserved_overflow) ... ok
+test_zero_demand (test_engine.EngineTests.test_zero_demand) ... ok
+test_end_to_end_and_bypass_rejected (test_http.HTTPTests.test_end_to_end_and_bypass_rejected) ... 127.0.0.1 - - [21/Sep/2026 14:49:52] "GET /api/session HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 14:49:52] "GET /api/demo HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 14:49:52] "POST /api/plan HTTP/1.1" 201 -
+127.0.0.1 - - [21/Sep/2026 14:49:52] "POST /api/export HTTP/1.1" 409 -
+127.0.0.1 - - [21/Sep/2026 14:49:52] "POST /api/decision HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 14:49:52] "POST /api/export HTTP/1.1" 200 -
+ok
+test_malformed_shape_is_400 (test_http.HTTPTests.test_malformed_shape_is_400) ... 127.0.0.1 - - [21/Sep/2026 14:49:53] "GET /api/session HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 14:49:53] "POST /api/plan HTTP/1.1" 400 -
+ok
+test_static_ui_is_served (test_http.HTTPTests.test_static_ui_is_served) ... 127.0.0.1 - - [21/Sep/2026 14:49:53] "GET /api/session HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 14:49:53] "GET / HTTP/1.1" 200 -
+ok
+test_token_required (test_http.HTTPTests.test_token_required) ... 127.0.0.1 - - [21/Sep/2026 14:49:54] "GET /api/session HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2026 14:49:54] "POST /api/plan HTTP/1.1" 403 -
+ok
+test_approved_export_is_idempotent_and_survives_restart (test_store.StoreTests.test_approved_export_is_idempotent_and_survives_restart) ... ok
+test_concurrent_approval_exactly_once (test_store.StoreTests.test_concurrent_approval_exactly_once) ... ok
+test_empty_order_cannot_be_approved (test_store.StoreTests.test_empty_order_cannot_be_approved) ... ok
+test_export_requires_approval (test_store.StoreTests.test_export_requires_approval) ... ok
+test_identical_reimport_cannot_export_duplicate_order (test_store.StoreTests.test_identical_reimport_cannot_export_duplicate_order) ... ok
+test_new_snapshot_invalidates_approval_and_export (test_store.StoreTests.test_new_snapshot_invalidates_approval_and_export) ... ok
+test_new_snapshot_invalidates_pending_decision (test_store.StoreTests.test_new_snapshot_invalidates_pending_decision) ... ok
+test_old_date_blocked (test_store.StoreTests.test_old_date_blocked) ... ok
+test_reason_required (test_store.StoreTests.test_reason_required) ... ok
+test_rejection_and_double_decision (test_store.StoreTests.test_rejection_and_double_decision) ... ok
+test_wrong_review_hash (test_store.StoreTests.test_wrong_review_hash) ... ok
+
+----------------------------------------------------------------------
+Ran 39 tests in 2.635s
+
+OK
